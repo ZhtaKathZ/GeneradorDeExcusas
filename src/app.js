@@ -22,9 +22,8 @@ window.onload = function() {
   let excuseElement = document.getElementsById("excuse");
   excuseElement.innerHTML = excuse;
 
-  return (excuse =
-    who[Math.floor(Math.random() * 4)] +
+  who[Math.floor(Math.random() * 4)] +
     action[Math.floor(Math.random() * 4)] +
     what[Math.floor(Math.random() * 3)] +
-    when[Math.floor(Math.random() * 4)]);
+    when[Math.floor(Math.random() * 4)];
 };
